@@ -1,0 +1,35 @@
+.wrap_Control.container{
+    width: 95%;
+    margin: 0 auto;
+  }
+  .wrap_Content_Admin {
+    margin-top: 20px;
+    background: #fff;
+  }
+  .wrap_Content_Admin h3{
+    font-size: 24px;
+    padding: 15px 30px;
+  }
+  .wrap_Control{
+    background-color: #fff;
+    margin-top: 30px;
+    padding: 40px 150px;
+  }
+  
+  .wrap_Control h3{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  .wrap_Control .btn .ant-form-item-control-input-content{
+    display: flex;
+    justify-content: center;
+  }
+
+  @media screen and (max-width:1200px)
+  {
+    .wrap_Control{
+      padding: 40px 80px;
+    }
+  }

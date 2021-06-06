@@ -1,0 +1,35 @@
+.container_status{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #343434
+}
+.container_status h1{
+    font-size: 160px;
+    margin: 0;
+    font-weight: 900;
+    letter-spacing: 20px;
+    /* background: url("https://chiase24.com/wp-content/uploads/2019/09/T%E1%BB%95ng-h%E1%BB%A3p-c%C3%A1c-h%C3%ACnh-%E1%BA%A3nh-l%C3%A0m-h%C3%ACnh-n%E1%BB%81n-m%C3%A0u-t%C3%ADm-%C4%91%E1%BA%B9p-nh%E1%BA%A5t-24-1-scaled.jpg") center no-repeat;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; */
+}
+.container_status a{
+    text-decoration: none;
+    background: #33c9dc;
+    color: #fff;
+    padding: 12px 24px;
+    display: inline-block;
+    border-radius: 25px;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: 0.4s;
+    opacity: 0.9;
+
+}
+.container_status a:hover{
+    background: #343434;
+    opacity: 1;
+    /* border: 1px solid springgreen; */
+}
